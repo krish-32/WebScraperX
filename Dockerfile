@@ -38,7 +38,7 @@ RUN mkdir -p /usr/local/share/libpostal
 RUN ./bootstrap.sh
 
 # Configure - choose the appropriate one by uncommenting
-RUN ./configure --datadir=/usr/local/share/libpostal
+RUN ./configure --datadir=/usr/local/share/libpostal MODEL=senzing || ./configure --datadir=/usr/local/share/libpostal
 # RUN ./configure --datadir=/usr/local/share/libpostal --disable-sse2
 # RUN ./configure --datadir=/usr/local/share/libpostal MODEL=senzing
 

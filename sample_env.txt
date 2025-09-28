@@ -1,0 +1,2 @@
+MY_KEY=Your Scrapping dog key
+GEO_MAP_API= openWeatherMap api key
